@@ -74,7 +74,6 @@ console.log(fizBuzz(20))
  function removeLastVowel(word) {
     let vowels = "aeiou";
 
-
     for (let i = word.length - 1; i >= 0; i-- ) {
         let char = word[i];
         //console.log(char)
@@ -110,7 +109,7 @@ console.log(leastCommonMultiple(3, 5)); // 15
 // that is only divisible by 1 and itself. Hint: consider creating a helper function to check if a number is prime!
 function choosePrimes(nums) {
     let arrPrime = [];
-
+    
     for (let i = 0; i < nums.length; i++) {
         let num = nums[i];
         //console.log(num);
