@@ -1,6 +1,6 @@
 # JAVASCRIPT-PROBLEMS
 ## The Problems below contains a list of Problems that i have Currated During my Practice of arrays, strings, and their methods I solve them using some step by step Approach
-list of some very complex Interview questions in JavaScript with Topics like Arrays, strings, Numbers, array methods , string Methods..
+### list of some very complex Interview questions in JavaScript with Topics like Arrays, strings, Numbers, array methods , string Methods..
 1. Write a function echo that takes in a string and console.logs that string "echo-ized".
 
 * _console.log(echo("haha")) // => prints "HAHA ... HAHa ... haha"
