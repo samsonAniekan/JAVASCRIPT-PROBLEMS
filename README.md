@@ -1,16 +1,19 @@
 # JAVASCRIPT-PROBLEMS
 list of some very complex Interview questions in JavaScript with Topics like Arrays, strings, Numbers, array methods , string Methods..
 1. Write a function echo that takes in a string and console.logs that string "echo-ized".
+
 console.log(echo("haha")) // => prints "HAHA ... HAHa ... haha"
 console.log(echo("JUmp"))// => prints "JUMP ... JUMp ... jump"
 
 2. Write a function, countVowels(word), that takes in a string word and returns the number of vowels in the word.
 Vowels are the letters "a", "e", "i", "o", "u".
+
 console.log(countVowels("bootcamp")); // => 3
 console.log(countVowels("apple")); // => 2
 console.log(countVowels("pizza")); // => 2
 
 3. Write a function sumArray(array) that takes in an array of numbers and returns the total sum of all the numbers.
+
 console.log(sumArray([1, 2, 3, 4])) // => 10
 console.log(sumArray( [5, 6, 4])); // => 15
 console.log(sumArray( [7, 3, 9, 11])); // => 30
@@ -18,6 +21,7 @@ console.log(sumArray( [7, 3, 9, 11])); // => 30
 4. Pig Latin is a fun take on the English language where you move any consonant cluster from the start of the word to the end of the word; when words begin on a vowel, you simply add "-yay". Vowels are "aeiou".
 Write a function pigLatinWord that takes in a word string and translates the word into Pig Latin. For this problem use the String.slice() method. The slice() method extracts a section of a string and returns it as a new string, without modifying the original string.
 Hint: Remember the String.includes method!
+
 console.log(pigLatinWord("apple")); //=> "appleyay"
 console.log(pigLatinWord("eat")); //=> "eatyay"
 console.log(pigLatinWord("banana")); //=> "ananabay"
