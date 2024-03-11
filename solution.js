@@ -6,13 +6,9 @@
 // if target arr includes target
 
 function myIndexOf(arr, target) {
-
     let index;
     index = arr.findIndex(num => num === target);
     return index
-
-
-
 }
 
 console.log(myIndexOf(['a', 'b', 'c', 'c'], 'c')); // 2
@@ -25,7 +21,6 @@ console.log(myIndexOf(['a', 'b', 'c', 'c'], 'c')); // 2
 
 
 function twoSum(arr, target) {
-
     for (let i = 0; i < arr.length; i++) {
         //let elem = arr[i];
         //console.log(elem)
@@ -34,8 +29,6 @@ function twoSum(arr, target) {
                 return true
             }
         }
-
-
     }
 
     return false;
@@ -60,16 +53,10 @@ function fizBuzz(max) {
        } else if (i % 3 === 0 || i % 5 === 0) {
             arr.push(i);
        }
+   }
 
-       }
-
-       return arr;
-
+     return arr;
 }
-
-
-
-
 
 console.log(fizBuzz(12))
 console.log(fizBuzz(20))
@@ -93,15 +80,10 @@ console.log(fizBuzz(20))
         //console.log(char)
         if (vowels.includes(char)) {
            return  word.slice(0, i) + word.slice(i + 1);
-
         }
-
-    }
-
-
- }
-
- console.log(removeLastVowel("bootcamp"))
+     }
+}
+console.log(removeLastVowel("bootcamp"))
 
 
 
@@ -112,17 +94,13 @@ console.log(fizBuzz(20))
 
 function leastCommonMultiple(num1, num2) {
     let totalNum = num1 * num2;
-    //console.log(totalNum)
 
     for (let i = 1; i <= totalNum; i++) {
         if (i % num1 === 0 && i % num2 === 0) {
             return i;
         }
-
     }
 }
-
-
 console.log(leastCommonMultiple(4, 6)); // 12
 console.log(leastCommonMultiple(3, 5)); // 15
 
@@ -139,7 +117,6 @@ function choosePrimes(nums) {
         if (isPrime(num)) {
             arrPrime.push(num);
         }
-
     }
 
     return arrPrime;
@@ -159,8 +136,5 @@ function isPrime(num) {
 
     return true;
 }
-
-
-
-
 console.log(choosePrimes([36, 48, 9, 13, 19])); // [ 13, 19 ]
+console.log(choosePrimes([2, 4, 5, 11, 17, 20, 26])) // [2, 5, 11, 17]
