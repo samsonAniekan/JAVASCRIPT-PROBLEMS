@@ -2,15 +2,15 @@
 list of some very complex Interview questions in JavaScript with Topics like Arrays, strings, Numbers, array methods , string Methods..
 1. Write a function echo that takes in a string and console.logs that string "echo-ized".
 
-console.log(echo("haha")) // => prints "HAHA ... HAHa ... haha"
+*console.log(echo("haha")) // => prints "HAHA ... HAHa ... haha"
 console.log(echo("JUmp"))// => prints "JUMP ... JUMp ... jump"
 
 2. Write a function, countVowels(word), that takes in a string word and returns the number of vowels in the word.
 Vowels are the letters "a", "e", "i", "o", "u".
 
-i.console.log(countVowels("bootcamp")); // => 3
-ii.console.log(countVowels("apple")); // => 2
-iii.console.log(countVowels("pizza")); // => 2
+*console.log(countVowels("bootcamp")); // => 3
+*console.log(countVowels("apple")); // => 2
+*console.log(countVowels("pizza")); // => 2
 
 3. Write a function sumArray(array) that takes in an array of numbers and returns the total sum of all the numbers.
 
