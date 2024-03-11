@@ -1,6 +1,25 @@
+# 💫 About Me:
+i am currently working on some hard JavaScript problems , the ones you will likely get in coding interviews
+
+
+## 🌐 Socials:
+[![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/iamAniekan) 
+
+# 💻 Tech Stack:
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=samsonAniekan&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=samsonAniekan&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=samsonAniekan&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+
+---
+[![](https://visitcount.itsvg.in/api?id=samsonAniekan&icon=0&color=0)](https://visitcount.itsvg.in)
+
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 # JAVASCRIPT-PROBLEMS
 ## The Problems below contains a list of Problems that i have Currated During my Practice of arrays, strings, and their methods I solve them using some step by step Approach
 ### list of some very complex Interview questions in JavaScript with Topics like Arrays, strings, Numbers, array methods , string Methods..
+# NOTE:  To Run this Problems RUN node "filename.js" on your Terminal 
 1. Write a function echo that takes in a string and console.logs that string "echo-ized".
 
 * _console.log(echo("haha")) // => prints "HAHA ... HAHa ... haha"
